@@ -2,7 +2,11 @@ package chr.patterns.adapter
 
 import chr.patterns.adapter.domain.IncomeData
 
+/**
+ * Моковые данные для демонстрации работы адаптера
+ */
 class MockIncomeData: IncomeData {
+
     override fun getCountryCode(): String = "UA"
 
     override fun getCompany(): String = "NotJavaRush Ltd."
